@@ -42,13 +42,6 @@ python -m pytest -q
 
 Test chạy không cần mở Chrome, bao gồm detector, bounding box, lọc nhiễu và logic jump/duck.
 
-## Roadmap
-
-- Tracking tốc độ obstacle và time-to-collision.
-- Phát hiện game over và tự restart.
-- Logging, báo cáo và CI.
-- AI hỗ trợ phân tích log và sinh test case.
-
 ## Lưu ý
 
-Bot hiện dành cho Windows và dùng tọa độ màn hình cố định. Không upload thư mục `venv/` lên Git.
+Bot hiện dành cho Windows và dùng tọa độ màn hình cố định. Vui lòng không upload thư mục `venv/` lên Git.
